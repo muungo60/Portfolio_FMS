@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500&family=Bitter:ital,wght@0,300;0,400;1,300&display=swap');
+html {
+   font-family: 'Bitter',serif;
+   font-weight: 300;
+   font-size: 16px;
+  }
+  .common-settings{
+    -webkit-text-size-adjust: 100%;
+    box-sizing: inherit;
+   }
+
+ .main-page,.common-settings{
+  margin: 0;
+  background-color: #e9e5e5;
+ }
+ .main-sidebar,.common-settings{
+  display: block;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: 2;
+  width: 20%;
+  font-size: .78rem;
+  color: #fff;
+  text-align: left;
+  background-color: rgba(145,13,13,.8);
+ }
+ .main-sidebar-inner,.common-settings{
+  font-size: .78rem;
+  color: #fff;
+  text-align: left;
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  padding: 45px 40px;
+ }
+ img{
+  font-size: .78rem;
+  -webkit-font-smoothing: antialiased;
+  color: inherit;
+  text-align: center;
+  border: 0;
+  width: 200px;
+  height:220px;
+  border-radius: 50%;
+ }
+ .head-image,.common-settings{
+  font-size: .78rem;
+  -webkit-font-smoothing: antialiased;
+  color: inherit;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+ }
+
+ .head-content,.common-settings{
+  font-family: 'Abhaya+Libre',serif;
+  font-weight: 300;
+  font-size: .78rem;
+  -webkit-font-smoothing: antialiased;
+  color: inherit;
+  text-align: center;
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-bottom: 50px;
+ }
+ .head-title-name,.common-settings{
+  color: inherit;
+  text-align: center;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+ }
+ .head-job-title,.common-settings{
+  color: inherit;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+  -webkit-font-smoothing: antialiased;
+  font-size: .93rem;
+  font-weight: 300;
+  text-transform: uppercase;
+ }
+ .block main-navigation,.common-settings{
+  color: #fff;
+  text-align: left;
+  display: block;
+  text-transform: uppercase;
+  margin: 45px -40px;
+  line-height: 30px;
+  position: relative;
+  font-size:.78rem;
+ }
+ .navigation-extendable,.common-settings{
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: .78rem;
+  box-sizing: inherit;
+  
+ }
+ nav ul {
+  margin: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+ font-size: .8rem;
+ line-height: 1.5rem; 
+}
+
+nav a {
+ color: rgba(255,255,255,.5);
+ text-decoration: none;
+}
+nav a:hover{
+ color: white;
+}
+ #top-nav{
+   margin-bottom: 35px;
+ }
+ .current,.common-settings{
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: .8rem;
+  list-style: none;
+  margin: 0;
+  display: block;
+  position: relative;
+  padding: 0 40px;
+ }
+ .block-social,.common-settings{
+  color: #fff;
+  text-align: left;
+  box-sizing: inherit;
+  font-size: 1.2rem;
+  margin-top: 45px;
+ }
+.block-title{
+  text-align: left;
+  box-sizing: inherit;
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: rgba(255,255,255,.5);
+  margin-left: 18px;
+  margin-bottom: 25px;
+}
+.block-content,.common-settings{
+  color: #fff;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 18px;
+}
+.social-icons,.common-settings{
+
+  text-align: left;
+  font-size: 1.2rem;
+}
+#icons:hover{
+  color: black;
+}
+.button-email,.common-settings{
+  text-align: left;
+  text-transform: uppercase;
+  background: 0 0;
+  line-height: 1;
+  text-decoration: none;
+  padding: 0;
+  margin-right: .2em;
+  color: rgba(255,255,255,.6);
+  display: inline-block;
+}
+.button-icon,.common-settings{
+  text-align: left;
+  text-transform: uppercase;
+  background: 0 0;
+  line-height: 1;
+  text-decoration: none;
+  padding: 0;
+  margin-right: .2em;
+  color: rgba(255,255,255,.6);
+  display: inline-block;
+}
+.site-main,.common-settings{
+  margin-left: 20%;
+}
+.site-main-inner,.common-settings{
+  position: relative;
+}
+.main-section-overview,.common-settings{
+  max-width: 1050px;
+  padding: 50px;
+  background-color: white;
+  color: black;
+}
+.red,.common-settings{
+  font-weight: 500;
+  color: #BB1E1E;
+}
+.vcard,.common-settings{
+  color: rgb(71, 71, 71);
+}
+.dl-vertical,.common-settings{
+  color: rgb(71, 71, 71);
+  overflow: hidden;
+}
+dt,.common-settings{
+  color: rgb(71, 71, 71);
+  float: left;
+  display: block;
+  clear: both;
+  width: 150px;
+}
+dd,.common-settings{
+  color: rgb(109, 107, 107);
+  float: left;
+  display: block;
+  margin: 0;
+}
+dd a{
+  text-decoration: none;
+  color: #BB1E1E;
+}

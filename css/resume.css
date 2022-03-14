@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500&family=Bitter:ital,wght@0,300;0,400;1,300&display=swap');
+html {
+   font-family: 'Bitter',serif;
+   font-weight: 500;
+   font-size: 18px;
+  }
+h1,h2,h3,h4{
+   font-family: 'Abhaya+Libre',serif;
+   font-weight: 500;
+}
+  .common-settings{
+   -webkit-text-size-adjust: 100%;
+   box-sizing: inherit;
+  }
+  .resume,.common-settings{
+   margin: 0;
+   background: #f6f6f6;
+   color: #000;
+   background-color: burlywood;
+   font-size: .88rem;
+   line-height: 1.5;
+  }
+  .resume-page,.common-settings{
+   color: #000;
+   font-size: .88rem;
+   line-height: 1.5;
+   width: 920px;
+   padding: 80px 80px 60px;
+   margin: 80px auto;
+   background-color: #fff;
+   box-shadow: 2px 2px 1px #606060;
+  }
+  .resume-page-inner,.common-settings{
+   color: #000;
+   font-size: .88rem;
+   line-height: 1.5;
+  }
+  .resume-section-header,.common-settings{
+   color: #000;
+   font-size: .88rem;
+   line-height: 1.5;
+   overflow: hidden;
+   display: flex;
+  }
+  .resume-header-text,.common-settings{
+   color: #000;
+   font-size: .88rem;
+   line-height: 1;
+   -webkit-box-flex: 1;
+   flex: 1;
+   padding: 0 15px;
+  }
+  .resume-header-name,.common-settings{
+   margin: 0;
+   -webkit-font-smoothing: antialiased;
+   display: block;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 1.88rem;
+   line-height: 1;
+   margin-bottom: 3px;
+   color: #BB1E1E;
+  }
+  .resume-header-title{
+   -webkit-text-size-adjust: 100%;
+   -webkit-font-smoothing: antialiased;
+   line-height: 1;
+   box-sizing: inherit;
+   margin: 0;
+   display: block;
+   text-transform: none;
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+   color: rgb(99, 97, 97);
+  }
+  .resume-header-note{
+   -webkit-text-size-adjust: 100%;
+   color: #000;
+   font-size: .88rem;
+   line-height: 1.5;
+   box-sizing: inherit;
+  }
+.resume-header-meta-right,.common-settings{
+   line-height: 1.5;
+   font-size: 14px;
+   color: #777;
+   white-space: nowrap;
+   float: right;
+   border-left: 1px solid #e0e0e0;
+   padding-left: 15px;
+   text-align: left;
+}
+.resume-header-meta-row,.common-settings{
+   line-height: 1.5;
+   font-size: 14px;
+   color: #777;
+   white-space: nowrap;
+}
+.resume-section,.common-settings{
+   color: #000;
+   font-size: .88rem;
+   line-height: 1.5;
+   overflow: hidden;
+   margin-top: 1.5em;
+}
+.resume-section-title,.common-settings{
+   line-height: 1.5;
+   margin: 0;
+   color: #BB1E1E;
+   font-size: 1.5rem;
+   padding-left: 21.5%;
+   margin-bottom: 15px;
+   page-break-after: avoid;
+}
+.resume-section-content,.common-settings{
+   color: #000;
+   font-size: .88rem;
+   line-height: 1.5;
+   padding-left: 21.5%;
+}
+.resume-section-content-experience,.common-settings{
+   -webkit-text-size-adjust: 100%;
+   font: 16px/1.6 Roboto,Helvetica,sans-serif;
+   font-weight: 300;
+   font-family: Roboto,Helvetica,sans-serif;
+   color: #000;
+   font-size: 14px;
+   line-height: 1.5;
+   box-sizing: inherit;
+  
+}
+.resume-timeline,.common-settings{
+   color: #000;
+   font-size: .88rem;
+   line-height: 1.5;
+   box-sizing: inherit;
+  
+}
+.resume-timeline-row,.common-settings{
+   color: #000;
+   font-size: .88rem;
+   line-height: 1.5;
+   overflow: hidden;
+   page-break-inside: avoid;
+}
+.resume-timeline-side,.common-settings{
+   line-height: 1.5;
+   float: left;
+   width: 20%;
+   text-align: right;
+   padding-right: 15px;
+   color: #777;
+   font-size: .81rem;
+}
+.resume-timeline-company,.common-settings{
+   line-height: 1.5;
+   text-align: right;
+   color: #777;
+   font-size: .81rem;
+   text-transform: uppercase;
+   background-color: #eee;
+   padding: 3px 7px;
+   margin-bottom: 5px;
+   border-radius: 2px;
+}
+.resume-timeline-date,.common-settings{
+   line-height: 1.5;
+   text-align: right;
+   color: #777;
+   font-size: .81rem;
+}
+.resume-timeline-body,.common-settings{
+   color: #000;
+   font-size: 14px;
+   line-height: 1.5;
+   float: left;
+   width: 77%;
+}
+.resume-timeline-position,.common-settings{
+   margin: 0;
+   font-weight: 400;
+   font-size: 1.1rem;
+   color: #333;
+   line-height: 1.3;
+}
+  
