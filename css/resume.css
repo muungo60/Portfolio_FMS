@@ -17,12 +17,10 @@ h1,h2,h3,h4{
    background: #f6f6f6;
    color: #000;
    background-color: burlywood;
-   font-size: .88rem;
    line-height: 1.5;
   }
   .resume-page,.common-settings{
    color: #000;
-   font-size: .88rem;
    line-height: 1.5;
    width: 920px;
    padding: 80px 80px 60px;
@@ -32,19 +30,18 @@ h1,h2,h3,h4{
   }
   .resume-page-inner,.common-settings{
    color: #000;
-   font-size: .88rem;
    line-height: 1.5;
   }
   .resume-section-header,.common-settings{
    color: #000;
-   font-size: .88rem;
+   font-size: .80rem;
    line-height: 1.5;
    overflow: hidden;
    display: flex;
   }
   .resume-header-text,.common-settings{
    color: #000;
-   font-size: .88rem;
+   font-size: .80rem;
    line-height: 1;
    -webkit-box-flex: 1;
    flex: 1;
@@ -76,14 +73,12 @@ h1,h2,h3,h4{
   .resume-header-note{
    -webkit-text-size-adjust: 100%;
    color: #000;
-   font-size: .88rem;
+   font-size: .80rem;
    line-height: 1.5;
    box-sizing: inherit;
   }
 .resume-header-meta-right,.common-settings{
    line-height: 1.5;
-   font-size: 14px;
-   color: #777;
    white-space: nowrap;
    float: right;
    border-left: 1px solid #e0e0e0;
@@ -92,13 +87,12 @@ h1,h2,h3,h4{
 }
 .resume-header-meta-row,.common-settings{
    line-height: 1.5;
-   font-size: 14px;
-   color: #777;
+   font-size: .75rem;
    white-space: nowrap;
 }
 .resume-section,.common-settings{
    color: #000;
-   font-size: .88rem;
+   font-size: .80rem;
    line-height: 1.5;
    overflow: hidden;
    margin-top: 1.5em;
@@ -114,31 +108,24 @@ h1,h2,h3,h4{
 }
 .resume-section-content,.common-settings{
    color: #000;
-   font-size: .88rem;
+   font-size: .80rem;
    line-height: 1.5;
    padding-left: 21.5%;
 }
 .resume-section-content-experience,.common-settings{
    -webkit-text-size-adjust: 100%;
-   font: 16px/1.6 Roboto,Helvetica,sans-serif;
-   font-weight: 300;
-   font-family: Roboto,Helvetica,sans-serif;
    color: #000;
-   font-size: 14px;
+   font-size: .80rem;
    line-height: 1.5;
-   box-sizing: inherit;
-  
 }
 .resume-timeline,.common-settings{
    color: #000;
-   font-size: .88rem;
+   font-size: .80rem;
    line-height: 1.5;
-   box-sizing: inherit;
-  
 }
 .resume-timeline-row,.common-settings{
    color: #000;
-   font-size: .88rem;
+   font-size: .80rem;
    line-height: 1.5;
    overflow: hidden;
    page-break-inside: avoid;
@@ -167,11 +154,11 @@ h1,h2,h3,h4{
    line-height: 1.5;
    text-align: right;
    color: #777;
-   font-size: .81rem;
+   font-size: .80rem;
 }
 .resume-timeline-body,.common-settings{
    color: #000;
-   font-size: 14px;
+   font-size: .80rem;
    line-height: 1.5;
    float: left;
    width: 77%;
@@ -183,4 +170,3 @@ h1,h2,h3,h4{
    color: #333;
    line-height: 1.3;
 }
-  
